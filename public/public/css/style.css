@@ -1,0 +1,107 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.btn-success {
+  background-color: #57a900;
+  background-image: -moz-linear-gradient(top, #70d900, #57a900);
+  background-image: -ms-linear-gradient(top, #70d900, #57a900);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70d900), to(#57a900));
+  background-image: -webkit-linear-gradient(top, #70d900, #57a900);
+  background-image: -o-linear-gradient(top, #70d900, #57a900);
+  background-image: linear-gradient(top, #70d900, #57a900);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70d900', endColorstr='#57a900', GradientType=0);
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  background-color: #57a900;
+}
+
+.btn-success:active, .btn-success.active {
+  background-color: #57a900;
+}
+
+/*
+%%%%%%%%%%%%%%%%%%%%%%% OWN %%%%%%%%%%%%%%%%%%%%%
+*/
+
+
+/*
+%%%%%%%%%%%%%%%%%%%%%%% HOMEPAGE (GUESTS) %%%%%%%%%%%%%%%%%%%%%
+*/
+
+.logo {
+  font-family: Pacifico;
+  font-size: 73px;
+  color: #fff;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 95px;
+  padding-left: 10px;
+}
+
+body {
+ padding-top: 0px;
+ padding-bottom: 0px;
+   background: #eee;
+
+}
+
+.page-home .container {
+  margin: 0 auto;
+  width: 65%;
+  overflow: hidden;
+  height: 1000px;
+  z-index: 2;
+  position: relative;
+}
+
+.page-home .header {
+  width: 100%;
+  height: 245px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #517fa4;
+  z-index: 0;
+  border-bottom: 1px solid #000;
+}
+
+.page-home .content-wrapper {
+  margin-top: 185px;
+  height:170px;
+  background: -moz-linear-gradient(top, #ffffff 47%, #eeeeee 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(47%, #ffffff), color-stop(100%, #eeeeee));
+  background: -webkit-linear-gradient(top, #ffffff 47%, #eeeeee 100%);
+  background: -o-linear-gradient(top, #ffffff 47%, #eeeeee 100%);
+  background: -ms-linear-gradient(top, #ffffff 47%, #eeeeee 100%);
+  background: linear-gradient(to bottom, #ffffff 47%, #eeeeee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0 );
+  border-width: 1px;
+  border-style: solid;
+  -webkit-border-image: 
+  -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image: 
+  -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image:
+  -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;    
+  -o-border-image:
+  -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+  linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+
+  border-bottom: 0px;
+  border-top: 1px #000;
+}
+
+.page-home .content-wrapper h1 {
+  font-family: Pacifico;
+  font-size: 48px;
+  color: #ff0000;
+  text-align: center;
+}

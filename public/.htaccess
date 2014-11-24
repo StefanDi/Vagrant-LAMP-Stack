@@ -1,0 +1,7 @@
+AllowOverride Options
+AllowOverride All
+
+
+<IfModule mod_php5.c>
+  php_value date.timezone UTC
+</IfModule>

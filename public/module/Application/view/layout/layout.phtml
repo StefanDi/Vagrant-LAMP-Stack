@@ -1,0 +1,88 @@
+<?php echo $this->doctype(); ?>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <?php echo $this->headTitle('ZF2 '. $this->translate('Skeleton Application'))->setSeparator(' - ')->setAutoEscape(false) ?>
+
+        <?php echo $this->headMeta()
+            ->appendName('viewport', 'width=device-width, initial-scale=1.0')
+            ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')
+        ?>
+
+        <!-- Le styles -->
+        <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'))
+                        ->prependStylesheet($this->basePath() . '/css/style.css')
+                        ->prependStylesheet($this->basePath() . '/css/bootstrap-theme.min.css')
+                        ->prependStylesheet($this->basePath() . '/css/bootstrap.min.css') ?>
+
+        <!-- Scripts -->
+        <?php echo $this->headScript()
+            ->prependFile($this->basePath() . '/js/bootstrap.min.js')
+            ->prependFile($this->basePath() . '/js/jquery.min.js')
+            ->prependFile($this->basePath() . '/js/respond.min.js', 'text/javascript', array('conditional' => 'lt IE 9',))
+            ->prependFile($this->basePath() . '/js/html5shiv.js',   'text/javascript', array('conditional' => 'lt IE 9',))
+        ; ?>
+
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body class="page-home">
+            <div class="header">
+                <h1 class="logo">Plinbar</h1>
+            </div>
+        <div class="container">
+            <div class="content-wrapper">
+                <h1>Enjoy things you love together!</h1>
+            </div>
+            <div>
+                Meet people like you! People which are addicted to some kind of sport, or people who love to travel or just share the same interests. 
+
+                Pimp up your life!
+                Chat, hang out or date people who are surfing on the same wave of life as you. Stop waisting your time! Life is to short to.
+
+                Actually Plinbar is a kind of "Friends &amp; Date finder".
+                
+                English | German
+
+            </div>
+            <div>
+                People who surf on the same wave
+                                Not just another Dating plattform or social network ...
+                ...Plinbar is different...
+
+                Not a Dating Plattform (but it is not forbidden!)
+                Not a Sex Plattform (...)
+                Not another Facefook
+
+                Find people with the same interests to ...
+                ...hang out with
+                ...date
+                ...to travel
+                ...chat
+                ...have fun! Enjoy live!
+
+                Plinbar is a community for everyone.
+
+                Main features
+                - It's free and always will be.
+                - Stunning privacy features
+                - Filter people by Look, Interests, Kinks, Character, Religion, Goals
+            </div>
+        </div>
+
+<!-- Site footer -->
+
+<div>Fetish (Kinks), Sport, Music, Travel, Religion, Food, Events, Sex, Movies, Do it yourself, Friends </div>
+    <div class="footer">
+        <div class="container">
+            About
+            Privacy Policy
+            Terms
+            Contact
+            Copyright 2015 Plinbar.
+        </div>
+    </div>
+        <?php echo $this->inlineScript() ?>
+    </body>
+</html>
